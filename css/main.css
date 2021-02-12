@@ -1,0 +1,44 @@
+
+img {
+    width: 100%;
+}
+
+img.btn {
+	border: unset;
+    padding: unset;
+}
+
+.container-fluid{
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+
+.col-md-4 {
+	padding-top: 10px;
+}
+
+.col-md-12 {
+	border: 2px solid;
+	border-color: black;
+	padding-top: 1rem;
+}
+
+.col-md-12 h1 {
+    padding-top: 1rem;
+}
+
+.modal-header {
+	display: unset;
+	border-bottom: unset;
+}
+
+.modal-footer {
+	border-top: unset;
+}
+
+.billede {
+	width: 100%;
+	height: 250px;
+}

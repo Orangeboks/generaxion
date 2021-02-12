@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GENERAXION opgave</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<!-- Button trigger modal -->
+<div class="container">
+<div class="row">
+<!-- Button  1 -->
+<div class="col-md-4">
+<div class="col-md-12">
+<img id="1"
+type="button" 
+class="btn btn-primary billede"
+data-toggle="modal" 
+data-body="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+data-body2="test"
+data-target="#Modal"
+data-overskrift="Sejlbåd"
+src="img/ship_001.jpg">
+<h1 id="h1">Sejlbåd</h1>
+<p id="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+<br> Tryk på billedet for at læse mere.</p>
+</img>
+</div>
+</div>
+<!-- Button  2 -->
+<div class="col-md-4">
+<div class="col-md-12">
+<img id="2"
+type="button"
+class="btn btn-primary billede"
+data-toggle="modal"
+data-body="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea."
+data-target="#Modal"
+data-overskrift="Sørøverskib"
+src="img/ship_002.jpg">
+<h1 id="h1">Sørøverskib</h1>
+<p id="p1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.
+<br> Tryk på billedet for at læse mere.</p>
+</img>
+</div>
+</div>
+<!-- Button  3 -->
+<div class="col-md-4">
+<div class="col-md-12">
+<img id="3"
+type="button"
+class="btn btn-primary billede"
+data-toggle="modal"
+data-body="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint."
+data-target="#Modal"
+data-overskrift="Piratskib"
+src="img/ship_003.jpg">
+<h1 id="h1">Piratskib</h1>
+<p id="p1">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.
+<br> Tryk på billedet for at læse mere.</p>
+</img>
+</div>
+</div>
+</div> <!-- End row -->
+</div> <!-- End container -->
+
+<!-- Modal -->
+<div class="modal" id="Modal" tabindex="-1" role="dialog" aria-labelledby="MainModal" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title" id="MainModal">
+          <img class="img-responsive" src="" />
+        </div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        </button>
+      </div>
+      <div class="modal-body">
+        <h1></h1>
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Luk</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End modal -->
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
